@@ -248,6 +248,16 @@ section.CTA a:hover{
 
 
 footer{
-    height: 20vw;
+    padding: 15vh 10vw;
     background-color: #FFC200;
+}
+footer p{
+    text-align: center;
+    color: #121212;
+    font: 700 1rem 'Poppins';
+}
+footer img{
+    display: block;
+    filter: brightness(0);
+    margin: 2rem auto 1rem;
 }
