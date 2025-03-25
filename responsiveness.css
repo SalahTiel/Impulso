@@ -1,0 +1,134 @@
+@media screen and (min-width: 1280px) {
+    section.home{
+        padding: 20vh 20vw;
+    }
+    section.home img.logoImpulso{
+        width: 45vw;
+    }
+    section.home h1{
+        font-size: 4.5rem;
+        line-height: 4.5rem;
+    }
+    section.home p.subtitle{
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }
+    section.home a{
+        width: fit-content;
+        font-size: 1.5rem;
+        padding: 1rem 4rem;
+        margin-top: 4rem;
+    }
+    section.home img.logoIgreja{
+        margin-top: 4rem;
+    }
+
+
+
+    section.description{
+        padding-inline: 20vw;
+        flex-direction: row;
+        gap: 10vw;
+        align-items: center;
+    }
+    section.description div.text p{
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+    section.description img{
+        margin-top: 0;
+        width: 30%;
+        height: auto;
+    }
+
+
+
+    section.date{
+        padding: 5vh 20vw;
+    }
+    section.date img.calendar{
+        width: 28vw;
+        top: 50%;
+        left: 20vw;
+        transform: translate(0% , -50%);
+        position: absolute;
+    }
+    section.date img.date{
+        width: 40%;
+        margin: 0 0 0 auto;
+    }
+
+    section.event{
+        padding: 15vh 20vw;
+    }
+    section.event h2{
+        text-align: left;
+        margin-bottom: 2rem;
+        font-size: 3rem;
+    }
+    section.event div.item p{
+        font-size: 1.2rem;
+    }
+    section.event a{
+        width: 50%;
+        font-size: 1.5rem;
+        margin-top: 4rem;
+    }
+
+
+
+    section.public{
+        padding: 15vh 20vw;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    section.public div.text{
+        width: 50%;
+    }
+    section.public div.text h2{
+        text-align: left;
+        font-size: 2.5rem;
+        margin-bottom: 4rem;
+    }
+    section.public div.text div.item img{
+        width: 3rem;
+        height: 3rem;
+    }
+    section.public div.text div.item p{
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+    section.public img.rocket{
+        height: 70vh;
+        width: auto;
+        margin-top: 0;
+    }
+
+
+
+    section.themes{
+        padding: 15vh 20vw;
+    }
+    section.themes h2{
+        font-size: 3rem;
+    }
+
+
+
+    section.CTA{
+        padding: 15vh 20vw;
+    }
+    section.CTA a{
+        width: fit-content;
+        font-size: 2rem;
+        padding-inline: 4rem;
+    }
+}
+
+@media screen and (min-width: 1700px){
+    section.public div.text div.item p{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+}

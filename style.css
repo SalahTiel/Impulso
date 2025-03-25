@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+
+
+
+section.home{
+    background: url(assets/background1.png);
+    background-size: cover;
+    height: 100vh;
+    padding: 30vh 10vw 0;
+}
+section.home img.logoImpulso{
+    width: 70vw;
+    display: block;
+    margin-inline: auto;
+}
+section.home h1{
+    font: 900 2.5rem 'Poppins';
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+}
+section.home p.subtitle{
+    font: 400 1rem 'Poppins';
+    color: rgb(255, 194, 0);
+    text-align: center;
+}
+section.home a{
+    display: block;
+    width: 100%;
+    margin: 1rem auto 0;
+    padding: 1rem;
+    border-radius: 50px;
+    text-align: center;
+    font: 700 1rem 'Poppins';
+    color: #121212;
+    background-color: #FFC200;
+}
+section.home a:hover{
+    color: white;
+    background-color: #a78000;
+    transition: all 300ms;
+    
+}
+section.home img.logoIgreja{
+    display: block;
+    width: 4rem;
+    margin-top: 1rem;
+    margin-inline: auto;
+}
+
+
+
+section.description{
+    padding: 15vh 10vw;
+    display: flex;
+    flex-direction: column;
+}
+section.description div.text p{
+    font: 400 1rem 'Poppins';
+    color: #121212;
+}
+section.description div.text p:last-child{
+    font-weight: 700;
+    margin-top: 1rem;
+}
+section.description img{
+    margin-top: 2rem;
+    width: 80vw;
+}
+
+
+
+section.date{
+    padding: 15vh 10vw;
+    position: relative;
+    display: flex;
+    background-color: #FFC200;
+}
+section.date img.calendar{
+    width: 50vw;
+    top: -4rem;
+    left: 50%;
+    transform: translateX(-50%);  
+    position: absolute;
+}
+section.date img.date{
+    width: 100%;
+    margin-top: 8vh;
+}
+
+
+
+section.event{
+    padding: 15vh 10vw;
+    background-color: #121212;
+}
+section.event h2{
+    font:700 2rem 'Poppins';
+    text-align: center;
+    color: #ffffff;
+}
+section.event div.item{
+    display: flex;
+    align-items: center;
+    background-color: #363636;
+    border-radius: 15px;
+    gap: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+section.event div.item img{
+    padding: 1rem;
+    width: 5rem;
+    height: 5rem;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+section.event div.item p{
+    font: 700 0.8rem 'Poppins';
+    color: white;
+}
+section.event a{
+    display: block;
+    width: 100%;
+    margin: 2rem auto 0;
+    padding: 1rem;
+    border-radius: 50px;
+    text-align: center;
+    font: 700 1rem 'Poppins';
+    color: #121212;
+    background-color: #FFC200;
+}
+section.event a:hover{
+    color: white;
+    background-color: #a78000;
+    transition: all 300ms;
+}
+
+
+
+section.public{
+    padding: 15vh 10vw;
+}
+section.public div.text h2{
+    font:700 2rem 'Poppins';
+    text-align: center;
+    color: #121212;
+}
+section.public div.text div.item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+section.public div.text div.item.border{
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #FFC200;
+}
+section.public div.text div.item img{
+    width: 4rem;
+    height: 4rem;
+}
+section.public div.text div.item p{
+    font: 500 1rem 'Poppins';
+    color: #121212;
+}
+section.public img.rocket{
+    width: 100%;
+    height: auto;
+    margin-top: 4rem;
+}
+
+
+
+section.themes{
+    padding: 15vh 10vw;
+    background: url(assets/background2.png);
+    background-size: cover;
+}
+section.themes img{
+    width: 100%;
+    height: auto;
+}
+section.themes p.title{
+    font: 700 2rem 'Poppins';
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+}
+section.themes p.subtitle{
+    font: 400 1rem 'Poppins';
+    color: white;
+    text-align: center;
+}
+section.themes p.subtitle.border{
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.685)
+}
+
+
+
+section.CTA{
+    padding: 15vh 10vw;
+    background-color: #121212;
+}
+section.CTA img{
+    width: 100%;
+    height: auto;
+}
+section.CTA p.subtitle{
+    font: 400 1.2rem 'Poppins';
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+}
+section.CTA p.subtitle span{
+    color: #FFC200;
+}
+section.CTA p.legend{
+    margin-top: 10rem;
+    font: 400 0.8rem 'Poppins';
+    color: white;
+    text-align: center;
+}
+section.CTA a{
+    display: block;
+    width: 100%;
+    margin: 2rem auto 0;
+    padding: 1rem;
+    border-radius: 50px;
+    text-align: center;
+    font: 700 1rem 'Poppins';
+    color: #121212;
+    background-color: #FFC200;
+}
+section.CTA a:hover{
+    color: white;
+    background-color: #a78000;
+    transition: all 300ms;
+}
+
+
+
+footer{
+    height: 20vw;
+    background-color: #FFC200;
+}
